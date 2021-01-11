@@ -1,0 +1,10 @@
+{
+  "name": "electron-compile-failure",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:broken": "node build.js 0",
+    "build:working": "node build.js 1"
+  }
+}
